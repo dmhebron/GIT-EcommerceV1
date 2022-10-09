@@ -10,10 +10,9 @@
 <body>
 <h1>Get It There Dispatching Services LLC</h1>
 <!-- need to have a slider made in js -->
-
-
-
-    <script>
+<div class="parent"> 
+<div class="div1">
+<script>
 var i = 0; //start point 
 var images = []; // variable called images with an empty array
 var time = 3000; // time in ms b/w each image switch
@@ -25,7 +24,7 @@ images[3]='/homepage/cam.jpeg';
 images[4]='/homepage/gps.jpeg';
 images[5]='/homepage/headset.jpeg';
 images[6]='/homepage/tires.jpeg';
-//create a function to change the image
+//create a function to change the image on its own
 function changeImg(){
     document.slide.src = images[i];
     if(i < images.length - 1){
@@ -33,11 +32,36 @@ function changeImg(){
     } else {
         i = 0;
     }
-    setTimeout("changeImg()", time);
-}
-window.onload = changeImg;
+    setTimeout("changeImg()", time); //if the image is less than the amount of images in 
+}//the array-1 then continue if not then the slideshow will start over
+window.onload = changeImg; //this tells the server to start the slideshow when the user opens the window
     </script>
-    <img name="slide" width="400" height="200">
+    <img name="slide" width="500" height="400">
+</div>
+</div>
     <script src="/homepage/home.js"></script>
+    <div class="div2"><h1>Hello</h1> </div>
+<div class="div3"><h1>Hello</h1> </div>
+<div class="div4"><h1>Hello</h1> </div>
 </body>
+<section class="footer-socials">
+    <a class="footer-link" href="https://www.facebook.com" target="_blank">
+      <img class="footer-icon" src="/footer img/facebook.svg" alt="facebook-icon"
+    /></a>
+    <a class="footer-link" href="https://instagram.com" target="_blank"
+      ><img
+        class="footer-icon"
+        src="/footer img/instagram.svg"
+        alt="instagram-icon"
+    /></a>
+    <a class="footer-link" href="https://twitter.com" target="_blank"
+      ><img class="footer-icon" src="/footer img/twitter.svg" alt="twitter-icon"
+    /></a>
+    <a class="footer-link" href="https://pinterest.com" target="_blank"
+      ><img
+        class="footer-icon"
+        src="/footer img/pinterest.svg"
+        alt="pinterest-icon"
+    /></a>
+  </section>
 </html>
