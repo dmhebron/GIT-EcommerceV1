@@ -8,11 +8,36 @@
     <link rel="stylesheet" href="/homepage/home.css">
 </head>
 <body>
+<h1>Get It There Dispatching Services LLC</h1>
+<!-- need to have a slider made in js -->
 
 
 
-
-    
+    <script>
+var i = 0; //start point 
+var images = []; // variable called images with an empty array
+var time = 3000; // time in ms b/w each image switch
+//image list that will go in the empty array
+images[0]= '/homepage/bluetruck.jpeg';
+images[1]='/homepage/whitetruck.png';
+images[2]='/homepage/white2.jpeg';
+images[3]='/homepage/cam.jpeg';
+images[4]='/homepage/gps.jpeg';
+images[5]='/homepage/headset.jpeg';
+images[6]='/homepage/tires.jpeg';
+//create a function to change the image
+function changeImg(){
+    document.slide.src = images[i];
+    if(i < images.length - 1){
+        i++;
+    } else {
+        i = 0;
+    }
+    setTimeout("changeImg()", time);
+}
+window.onload = changeImg;
+    </script>
+    <img name="slide" width="400" height="200">
     <script src="/homepage/home.js"></script>
 </body>
 </html>
