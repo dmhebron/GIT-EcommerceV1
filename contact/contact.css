@@ -1,0 +1,71 @@
+:root{
+    color: #87BCDE;
+    color: #805e73;
+    color: #4E4D5C;
+    color: #2D4654;
+    color: #243D4A;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+   flex-direction: row;
+   justify-content: space-evenly;
+    width: 100%;
+}
+nav ul li {
+        padding: 10px;
+        background-image: linear-gradient(to right, #4E4D5C, #2D4654);
+         width: 90%;
+}
+ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: black;
+    font-size: 55px;
+}
+body{
+       background-image: linear-gradient(to right, #4E4D5C, #2D4654);
+      background-color: #4E4D5C;
+        color: black;
+   
+}
+    .contact{
+        display: flex;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-position: center;
+        }
+
+    input[type=text] {
+      width: 100%;
+     padding: 20px 20px;
+     margin: 8px 0;
+      box-sizing: border-box;
+      border-radius: 25px;
+      background-color: #87BCDE;
+
+      }
+    textarea {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      resize: none;
+      border-radius: 25px;
+      background-color: #87BCDE;
+    }
+    .email{
+        width:100%;
+        padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border-radius: 25px;
+      background-color: #87BCDE;
+    }
+  
+    

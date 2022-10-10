@@ -8,10 +8,48 @@
     <title>Contact Page</title>
 </head>
 <body>
+    
     <nav>
-        <a href="/homepage/home.html">Home</a>
-        <a href="/products/product.html">Services</a>
-        <a href="/contact/contact.html">Contact Us</a>
+        <ul> 
+        <li><a href="/homepage/home.html">Home</a></li>
+        <li><a href="/products/product.html">Services</a></li>
+       <li><a href="/contact/contact.html">Contact Us</a></li> 
+        </ul>
        </nav>
+
+       <section class="page">
+
+        <h1>Get in Touch With Us!</h1>
+    <form class="contact"> 
+          <div class="column">
+          <label for="fname"></label>
+          <input type="text" id="fname" name="fname" placeholder="Destiny">
+    
+          <br>
+          <label for="lname"></label>
+          <input type="text" id="lname" name="lname" placeholder="Hebron">
+    
+          <br>
+          <label for="email"></label> 
+          <input class="email" type="email" id="email" name="email"
+            placeholder="dhebron@gitdispatching.com">
+              <br>
+              <h4>Please choose an option:</h4>
+              <input class="choose" type="radio" name="option" id="inquiry">
+                <label for="inquiry">Inquiry</label><br>
+                <input class="choose" type="radio" name="option" id="order">
+                <label for="order">Order</label><br>
+                    <input class="choose" type="radio" name="option" id="suggestion">
+                        <label for="suggestions">Suggestions</label><br><br>
+        
+                  <textarea name="message"  placeholder="Type your message here..."></textarea>
+                  <br>
+          <input type="submit">
+        
+        </div>
+      </form>
+    </section>
+    
 </body>
+
 </html>
