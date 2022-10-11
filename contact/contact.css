@@ -97,4 +97,32 @@ font-family: sans-serif, optima;
         height: 50px;
       }
   
+      @media only screen and (max-width: 425px) {
+       
+        nav ul li a{
+          background-color: #2D4654;
+        }
+        body{
+          color: white;
+          }
+          input[type=submit]{
+            color: white;
+          }
+          h1{
+            font-size: large;
+          }
+          input[type=text]{
+            padding: 10px;
+          }
+      }
+      @media only screen and (max-width: 320px){
+        nav ul li {
+          padding: 5px;
+        }
+        nav ul{
+          display: flex;
+          list-style: none;
+         flex-direction: column; 
+         }
+      }
     
