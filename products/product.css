@@ -27,10 +27,13 @@ h1{
     display: flex;
     justify-content: center;
     align-content: center;
-    color: whitesmoke;
+    color: gray;
     font-size: 55px;
 }
-
+h2{
+    color: gray;
+    font-size: 35px;
+}
 
 
 
