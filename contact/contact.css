@@ -5,6 +5,7 @@
     color: #2D4654;
     color: #243D4A;
 }
+/* styling of the nav bar */
 nav ul {
     display: flex;
     list-style: none;
@@ -21,26 +22,31 @@ ul li a{
     text-decoration: none;
     color: whitesmoke;
 }
+/* styling of the title on the page */
 h1{
     display: flex;
     justify-content: center;
     align-content: center;
-    color: black;
+    color: whitesmoke;
     font-size: 55px;
 }
+/* background styling of the entire page */
 body{
        background-image: linear-gradient(to right, #4E4D5C, #2D4654);
       background-color: #4E4D5C;
-        color: black;
-   
+        color: gray;
+   font-family: sans-serif, optima;
 }
+/* places the entire form in the center of the page and in a column */
     .contact{
         display: flex;
         justify-content: center;
         background-repeat: no-repeat;
         background-position: center;
+        background-image: url('/backimg/Commercial_Vehicle_Hero_image_1.jpeg');
+        
         }
-
+/* styling of the first and last name fields */
     input[type=text] {
       width: 100%;
      padding: 20px 20px;
@@ -48,8 +54,9 @@ body{
       box-sizing: border-box;
       border-radius: 25px;
       background-color: #87BCDE;
-
+      font-family: sans-serif, optima;
       }
+      /* styling of the type your message here portion */
     textarea {
       width: 100%;
       padding: 12px 20px;
@@ -58,7 +65,9 @@ body{
       resize: none;
       border-radius: 25px;
       background-color: #87BCDE;
+      font-family: sans-serif, optima;
     }
+    /* styling of the email portion of the form */
     .email{
         width:100%;
         padding: 12px 20px;
@@ -66,6 +75,26 @@ body{
       box-sizing: border-box;
       border-radius: 25px;
       background-color: #87BCDE;
+      font-family: sans-serif, optima;
     }
+/* styling of the submit button */
+    input[type=submit]{
+color: gray;
+background-color: #87BCDE;
+border-radius: 25px;
+font-family: sans-serif, optima;
+    }
+
+      /* footer styling */
+      .footer-socials {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+      }
+      
+      .footer-link {
+        width: 25px;
+        height: 50px;
+      }
   
     

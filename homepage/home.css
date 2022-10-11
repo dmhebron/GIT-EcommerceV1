@@ -5,6 +5,32 @@
     color: #2D4654;
     color: #243D4A;
 }
+/* styling of the nav bar */
+nav ul {
+    display: flex;
+    list-style: none;
+   flex-direction: row;
+   justify-content: space-evenly;
+    width: 100%;
+}
+nav ul li {
+        padding: 10px;
+        background-image: linear-gradient(to right, #4E4D5C, #2D4654);
+         width: 90%;
+}
+ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: sans-serif, optima;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: black;
+    font-size: 55px;
+    font-family: sans-serif, optima;
+}
 /* styling of the entire grid */
 .parent {
     display: grid;
@@ -37,7 +63,7 @@
     /* footer styling */
     .footer-socials {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         padding: 20px;
       }
       
