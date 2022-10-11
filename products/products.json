@@ -1,5 +1,5 @@
 
-"products":[
+{"products":[
 {"product1": "Emergency Mechanical Services"},
 {"product2": "Emergency Tire Replacement Services"},
 {"product3": "Towing Services"},
@@ -8,11 +8,8 @@
 {"product6": "Trailer Rental"},
 {"product7": "GPS"},
 {"product8": "Dash Camera"},
-{"product9": "Headset"} 
-]
+{"product9": "Headset"},
+{"merchandise": {}}
+]}
 
-"merchandise":[
-{"merch1": "Tshirt"},
-{"merch2": "Coffee mug"}
-]
 

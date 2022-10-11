@@ -1,0 +1,47 @@
+:root{
+    color: #87BCDE;
+    color: #805e73;
+    color: #4E4D5C;
+    color: #2D4654;
+    color: #243D4A;
+}
+/* styling of the nav bar */
+nav ul {
+    display: flex;
+    list-style: none;
+   flex-direction: row;
+   justify-content: space-evenly;
+    width: 100%;
+}
+nav ul li {
+        padding: 10px;
+        background-image: linear-gradient(to right, #4E4D5C, #2D4654);
+         width: 90%;
+}
+ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+/* styling of the title on the page */
+h1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: whitesmoke;
+    font-size: 55px;
+}
+
+
+
+
+ /* footer styling */
+ .footer-socials {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
+  
+  .footer-link {
+    width: 25px;
+    height: 50px;
+  }
