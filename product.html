@@ -16,21 +16,27 @@
     </ul>
    </nav>
 <h1>Our Products and Services</h1>
-<h2>Truck Services</h2>
+
 <div class="parent"> 
   <div class="div1">
+    <div id="pic"></div>
+    <!-- copied the function from the home page to create the images for the products -->
   <script>
   var i = 0; //start point 
   var images = []; // variable called images with an empty array
-  var time = 3000; // time in ms b/w each image switch
+  var time = 2000; // time in ms b/w each image switch
   //image list that will go in the empty array
-  images[0]= '/homepage/bluetruck.jpeg';
-  images[1]='/homepage/whitetruck.png';
-  images[2]='/homepage/white2.jpeg';
+  images[0]= '/products/img/AdobeStock_214177399-scaled.jpeg';
+  images[1]='/products/img/truck-tire-blowouts.jpeg';
+  images[2]='/products/img/shutterstock_1772395832.jpeg';
   images[3]='/homepage/cam.jpeg';
   images[4]='/homepage/gps.jpeg';
   images[5]='/homepage/headset.jpeg';
   images[6]='/homepage/tires.jpeg';
+  images[7]='/products/img/truck_types_dry_trailer_image.jpeg';
+  images[8]='/products/img/white_t_shirts_front_and_back_view_mockup.jpg';
+  images[9]='/products/img/tumbler.png';
+  images[10]='/products/img/hoodie.jpeg';
   //create a function to change the image on its own
   function changeImg(){
       document.slide.src = images[i];
@@ -43,12 +49,13 @@
   }//the array-1 then continue if not then the slideshow will start over
   window.onload = changeImg; //this tells the server to start the slideshow when the user opens the window
       </script>
-      <img name="slide" width="950" height="800">
+      <img class="slide" name="slide" width="950" height="800">
   </div>
   
   <!-- p tags contain html with the description of the products -->
   <!-- div tags contain a product pulled from the js file -->
        <div id="container">
+        <h2>Truck Services</h2>
         <div class="items" id="output"></div>
         <p> Getting roadside mechanical services will get you up and running quickly.</p>
        <div class="items" id="output2"></div> 

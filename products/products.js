@@ -32,6 +32,7 @@ var content = {
         "/products/img/hoodie.jpeg"
     ]
 }
+
 var output = document.getElementById('output');
 output.innerHTML = content.product[0] + ' ' + '$' + content.price[0] + '/hour'
 
@@ -67,3 +68,6 @@ output.innerHTML = content.merchandise[1] + ' ' + '$' + content.price[10]
 
 var output = document.getElementById('output12');
 output.innerHTML = content.merchandise[2] + ' ' + '$' + content.price[11]
+
+
+  
