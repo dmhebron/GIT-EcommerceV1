@@ -17,6 +17,19 @@ var content = {
         "T-shirts",
         "Tumbler",
         "Hoodie",
+    ],
+    "picture":[
+        "/products/img/AdobeStock_214177399-scaled.jpeg",
+        "/products/img/truck-tire-blowouts.jpeg",
+        "/products/img/shutterstock_1772395832.jpeg",
+        "/products/img/commercial-tire-fi-sized.jpeg",
+        "/products/img/truck_types_dry_trailer_image.jpeg",
+        "/products/img/gps.jpeg",
+        "/products/img/cam.jpeg",
+        "/products/img/headset.jpeg",
+        "/products/img/white_t_shirts_front_and_back_view_mockup.jpg",
+        "/products/img/tumbler.png",
+        "/products/img/hoodie.jpeg"
     ]
 }
 var output = document.getElementById('output');
