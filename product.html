@@ -17,41 +17,72 @@
    </nav>
 <h1>Our Products and Services</h1>
 <h2>Truck Services</h2>
+<div class="parent"> 
+  <div class="div1">
+  <script>
+  var i = 0; //start point 
+  var images = []; // variable called images with an empty array
+  var time = 3000; // time in ms b/w each image switch
+  //image list that will go in the empty array
+  images[0]= '/homepage/bluetruck.jpeg';
+  images[1]='/homepage/whitetruck.png';
+  images[2]='/homepage/white2.jpeg';
+  images[3]='/homepage/cam.jpeg';
+  images[4]='/homepage/gps.jpeg';
+  images[5]='/homepage/headset.jpeg';
+  images[6]='/homepage/tires.jpeg';
+  //create a function to change the image on its own
+  function changeImg(){
+      document.slide.src = images[i];
+      if(i < images.length - 1){
+          i++;
+      } else {
+          i = 0;
+      }
+      setTimeout("changeImg()", time); //if the image is less than the amount of images in 
+  }//the array-1 then continue if not then the slideshow will start over
+  window.onload = changeImg; //this tells the server to start the slideshow when the user opens the window
+      </script>
+      <img name="slide" width="950" height="800">
+  </div>
+  
+  <!-- p tags contain html with the description of the products -->
+  <!-- div tags contain a product pulled from the js file -->
        <div id="container">
-        <div id="output"></div>
+        <div class="items" id="output"></div>
         <p> Getting roadside mechanical services will get you up and running quickly.</p>
-       <div id="output2"></div> 
+       <div class="items" id="output2"></div> 
        <p>We all have unexpected tire issues why not have peace of mind while on the road. </p>
-        <div id="output3"></div>
+        <div class="items" id="output3"></div>
         <p>Sometimes there is no quick fix, so you'll have to get towed to the nearest truck repair shop.</p>
-        <div id="output4"></div>
+        <div class="items" id="output4"></div>
         <p>Keeping tires above 4/32 is ideal, so we offer this discount when you purchase two or more tires.</p>
-        <div id="output5"></div>
+        <div class="items" id="output5"></div>
         <p>Keeping tires above 4/32 is ideal, so we offer this discount when you purchase two or more tires.</p>
-        <div id="output6"></div>
+        <div class="items" id="output6"></div>
         <p>Owner operators may have the tractor but no trailer, so we offer this service so everyone can run loads.</p>
-        <div id="output7"></div>
+        <div class="items" id="output7"></div>
         <p>Getting to a load in a timely manner is always important, and cellphones aren't always reliable.</p>
-        <div id="output8"></div>
+        <div class="items" id="output8"></div>
         <p>Reduce your liability while on the road so record the road while you drive.</p>
-        <div id="output9"></div>
+        <div class="items" id="output9"></div>
         <p>Holding the phone to your ear is dangerous while driving so using a headset is ideal.</p>
         <h2>Merchandise</h2>
-        <div id="output10"></div>
+        <div class="items" id="output10"></div>
         <p>Rep your dispatching service with these made to order shirts.</p>
-        <div id="output11"></div>
+        <div class="items" id="output11"></div>
         <p>Truck stops may not always have a cup but with this tumbler you will!</p>
-        <div id="output12"></div>
+        <div class="items" id="output12"></div>
         <p>Stay warm with these 100% cotton hoodies!</p>
 
        </div>
+      </div>
 
-
-
-
+<!-- linking js file to the html page -->
 <script src="/products/products.js"></script>
 </body>
 
+<!-- footer section -->
 <footer> 
     <section class="footer-socials">
         <a class="footer-link" href="https://www.facebook.com" target="_blank">
